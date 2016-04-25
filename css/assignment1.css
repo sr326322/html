@@ -67,7 +67,6 @@ nav ul
   display: block;
 padding-bottom: 0px;
 margin-bottom: 0px;
-background-color: #003d99
 }
 .two
 {
@@ -306,4 +305,12 @@ color: black;
 .two nav
 {
   text-align: center;
+}
+.body
+{
+  background: url('../images/background.jpg');
+}
+.white
+{
+  color: white;
 }
