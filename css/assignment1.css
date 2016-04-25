@@ -1,17 +1,30 @@
 .one a
 {
-  color: #006600;
+
   text-decoration: none;
+  padding: -10px;
+  margin: 10px;
+  margin-top: 5px
+  margin-bottom: 5px;
+  color: black;
   font-weight: bold;
 }
 .one li a:hover
 {
-  text-decoration: underline;
-color: blue;
+color: white;
 }
 .one li
 {
   display: inline;
+  margin-left: 0px;
+border-radius: 30px;
+color: black;
+background-color: white;
+border-width: 50px;
+}
+.one li:hover
+{
+  background-color: #003d99;
 }
 body
 {
@@ -33,11 +46,13 @@ nav ul
   margin-left: 50px;
   margin-bottom: 0;
   float: left;
+  color: black;
   font-size: 30px;
   border-top-right-radius:30px;
   border-bottom-right-radius:30px;
   border-right: 13px;
   border: 1px solid #003d99;
+  background-color: white;
 }
 .primary
 {
@@ -52,6 +67,7 @@ nav ul
   display: block;
 padding-bottom: 0px;
 margin-bottom: 0px;
+background-color: #003d99
 }
 .two
 {
@@ -62,7 +78,7 @@ margin-bottom: 0px;
   height: 80px;
   margin-top: 0;
   position: relative;
-background-color: #e6f3ff;
+background-color:#e6f0ff;
 }
 .third
 {
@@ -155,6 +171,7 @@ margin: auto;
 #content
 {
   padding-top: 5px;
+  font-weight: lighter;
 }
 #heading
 {
@@ -196,6 +213,7 @@ background-position: center;
   margin-bottom: 10px;
   margin-left: 20px;
   margin-right: 20px;
+  font-weight: 100;
 }
 .define
 {
@@ -265,8 +283,8 @@ float: left;
   padding-left: -2px;
   margin-left: 0px;
 border-radius: 10px;
-background-color: green;
-color: white;
+background-color: white;
+color: black;
 }
 .two a{
   text-decoration: none;
@@ -274,12 +292,12 @@ color: white;
   margin: 25px;
   margin-top: 5px
   margin-bottom: 5px;
-  color: white;
+  color: black;
   font-weight: bold;
 }
 .two a:hover
 {
-  color: black;
+  color: #3385ff;
 }
 .two li:hover
 {
