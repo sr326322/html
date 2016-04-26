@@ -25,6 +25,9 @@ body {
   margin-right: auto;
   width: 960px;
   display: block;
+  margin-top: 0px;
+  padding-top: 0px;
+  position: relative;
 }
 
 /* `Grid >> Global
