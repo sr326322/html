@@ -1,0 +1,287 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+#searchbar
+{
+  width: 200px;
+}
+.panel
+{
+padding-top: 10px;
+}
+
+#searchbutton
+{
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+.col-12
+{
+  margin-top: 5px;
+}
+.well,.page-header
+{
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.well #data
+{
+padding: 30px;
+}
+.carousel.control.right,.carousel.control.left
+{
+  background-image: none;
+  margin-bottom: 0px;
+}
+.navbar,.navbar-fixed-top
+{
+  display: block;
+  margin-bottom: 0px;
+  background-color: ;
+
+}
+
+.tab-content .tab-pane img
+{
+  float: left;
+  margin: 5px 10px 0px 10px;
+}
+.tab-content .tab-pane p
+{
+
+}
+.panel .panel-heading .panel-title
+{
+  color: white;
+}
+
+#inner
+{
+  color:white;
+}
+footer
+{
+background-color: #333;
+color:#eee;
+font-size: 11px;
+padding: 20px;
+}
+.panel-title
+{
+  height: 20px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+ul.unstyled
+{
+  list-style: none;
+  padding: 0px;
+}
+#well_panel
+{
+margin-top: 10px;
+padding: 5px 5px;
+padding-top: -30px;
+}
+.panel
+{
+  margin: 0px;
+}
+.nav-pills
+{
+margin: 5px 5px;
+}
+.tab-content
+{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#row1,#row2
+{
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+#background
+{
+  background: url('../images/background.jpg');
+}
+footer
+{
+  margin-top:-15px;
+}
+#panel_page2
+{
+  text-align: center;
+  margin-top: 60px;
+  padding: 10px;
+}
+#features
+{
+margin-top: 0px;
+margin-bottom: 0px;
+padding: 0px;
+padding-top: 5px;
+text-align: center;
+padding-bottom: 0;
+}
+
+#new_panel
+{
+  padding-top: 15px;
+  padding-bottom: 0;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+#hero .panel-heading
+{
+  background-color: #558000;
+}
+.panel-heading
+{
+  background-color: #3399ff;
+}
+#row2 .panel-heading
+{
+  background-color:  #b36b00
+}
+#row3 .panel-heading
+{
+  background-color: #264d00;
+}
+#3panel
+{
+  margin-top: 0px;
+}
+#hero
+{
+  margin-top: -15px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+#myCarousel
+{
+  padding-bottom: 0px;
+}
+.carousel
+{
+  align-items: center;
+display: block;
+position: relative;
+float: left;
+margin-top: 60px;
+
+}
+#slide1
+{
+  background: url(../images/medium_1.png) top center no-repeat;
+}
+#slide2
+{
+  background: url(../images/medium_2.jpg) top center no-repeat;
+}
+#slide3
+{
+  background: url(../images/medium_3.jpg) top center no-repeat;
+}
+
+#hero #image
+{
+  background: url(../images/small_3.jpg) top center no-repeat;
+}
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  #myCarousel .item
+  {
+    310px;
+  }
+  #slide1
+  {
+    background: url(../images/small_1.png) top center no-repeat;
+  }
+  #slide2
+  {
+    background: url(../images/small_2.jpg) top center no-repeat;
+  }
+  #slide3
+  {
+    background: url(../images/small_3.jpg) top center no-repeat;
+  }
+  #hero #image img
+  {
+    background: url(../images/hero_small.jpg) top center no-repeat;
+  }
+.carousel-caption
+{
+  font-size: 10px;
+}
+.carousel-caption h1
+{
+  font-size: 5px;
+}
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+  #myCarousel .item
+  {
+    500px;
+  }
+  #slide1
+  {
+    background: url(../images/small_1.png) top center no-repeat;
+  }
+  #slide2
+  {
+    background: url(../images/small_2.jpg) top center no-repeat;
+  }
+  #slide3
+  {
+    background: url(../images/small_3.jpg) top center no-repeat;
+  }
+
+}
